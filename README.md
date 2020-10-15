@@ -26,7 +26,7 @@ background-color=#520053
 
 ### qutebrowser
 ```python
-config.bind('M', 'hint links spawn ~/scripts/mpv.sh {hint-url}')
+config.bind('M', 'hint links spawn /path/to/mpv-wrapper.sh {hint-url}')
 ```
 
 ### tuir
