@@ -1,10 +1,10 @@
 # mpv-wrapper
 
-This is my mpv wrapper script.  It takes a url as an argument or from the copy buffer and attempt to play it in mpv.  If mpv can't play the url, a notification is used to let you know it failed.  This is important if the script is executed via a keybinding or launched from another application.
+This is my mpv wrapper script.  It takes a url as an argument or from the copy buffer and attempts to play it in mpv.  If mpv can't play the url, a notification is used to let you know it failed.  This is important if the script is executed via a keybinding or launched from another application.  
 
 ## Configuration
 
-Here are various configurations I use with this script.
+Here are various configurations I use with this script.  Wayland users might need to set `XDG_SESSION_TYPE=wayland` environment variable.
 
 ### i3/Sway
 ```sh
