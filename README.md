@@ -29,7 +29,8 @@ background-color=#520053
 config.bind('M', 'hint links spawn /path/to/mpv-wrapper.sh {hint-url}')
 ```
 
-### tuir
+### tuir or ttrv
+
 ```sh
 video/*; /path/to/mpv-wrapper.sh '%s' ; test=test -n "$DISPLAY"
 ```
